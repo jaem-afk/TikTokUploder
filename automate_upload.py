@@ -65,8 +65,8 @@ def main():
             else:
                 print(f'Failed to upload video: {video_title}')
                 print("Retrying in 300 seconds.")
-                time.sleep(300)  # Sleep for 3 minutes before retrying
-        time.sleep(300)  # Sleep for 3 minutes between uploads
+                time.sleep(300)  # Sleep for 5 minutes before retrying
+        time.sleep(300)  # Sleep for 5 minutes between uploads
 
 
 if __name__ == '__main__':
